@@ -6,7 +6,7 @@ _"A [Trybe](https://www.betrybe.com/) é uma escola de tecnologia que tem compro
 
 São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento web, Front-end, Back-end, ciência da computação, metodologias ágeis e habilidades comportamentais.
 
-## Fundamentos do Desenvolvimento Web
+### Módulo 1 - Fundamentos do Desenvolvimento Web
 
 ##### Bloco 1: Introdução - Unix & Shell
 
