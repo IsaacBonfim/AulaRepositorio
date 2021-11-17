@@ -1,4 +1,4 @@
-#Trybe
+# Trybe
 
 O objetivo deste repositório é armazenar todos o conteudo e atividades desenvolvidos por Isaac Pinto Bonfim de Oliveira durante o decorrer do curso na Trybe.
 
