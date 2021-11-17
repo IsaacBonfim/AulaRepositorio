@@ -1,0 +1,13 @@
+Abismo. As profundezas do mar o protegem. Você recebe resistência 10 a um tipo de dano definido aleatoriamente.
+
+Amigo. Um de seus aliados racionais irá traí-lo no pior momento possível (fornecendo seu benefício para um inimigo ou fazendo outra coisa, a critério do mestre). A traição ocorre em no máximo um ano.
+
+Anel. Um aro de energia colorida surge ao seu redor e então desaparece. Você recebe +5 pontos de mana permanentemente.
+
+Árvore. A árvore da vida fortalece seu corpo. Você recebe +10 PV permanentemente.
+
+Coração. Você recebe +2 em um atributo a sua escolha permanentemente.
+
+Crânio. Uma versão feita de sombras de você surge e o ataca. A sombra tem as mesmas estatísticas que você e é imune a qualquer ataque que não seja desferido por você. Seus amigos podem ajudá-lo fornecendo bônus.
+
+Donzela. Uma bela mulher (ou homem) de sua raça surge e o chama. Se você for na direção da mulher, ela se transforma em um monstro com nível de desafio igual ao seu nível –1. Se você vencer o monstro sozinho, sobe de nível imediatamente. Se o monstro vencê-lo, deixa-o inconsciente e desaparece.

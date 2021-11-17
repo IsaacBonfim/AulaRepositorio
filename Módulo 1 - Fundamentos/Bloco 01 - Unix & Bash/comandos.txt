@@ -1,0 +1,325 @@
+    1  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+    2  sudo apt install curl
+    3  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+    4  tail ~/.bashrc
+    5  nvm
+    6  source ~/.bashrc
+    7  nvm
+    8  nvm install 14
+    9  sudo apt-get update
+   10  sudo apt-get upgrade
+   11  sudo dpkg --configure -a; sudo apt install -f; mkdir ~/Downloads/chrome; cd ~/Downloads/chrome && wget -c encurtador.com.br/efkuS && sudo dpkg -i efkuS; sudo apt install -f; rm -d -r ~/Downloads/chrome
+   12  /
+   13  ls~
+   14  ../
+   15  ls
+   16  ls -a
+   17  ls
+   18  cd
+   19  cd..
+   20  cd users
+   21  cd desktop
+   22  cd 'Área de Trabalho'
+   23  clear
+   24  ls
+   25  mkdir Trybe
+   26  ls
+   27  cd Trybe/
+   28  cd.
+   29  cd .
+   30  cd ..
+   31  cd Trybe/
+   32  clear
+   33  ls -a
+   34  pwd
+   35  clear
+   36  ls
+   37  ls-a
+   38  ls -a
+   39  clear
+   40  ls
+   41  cp arquivo arquivo2.txt
+   42  ls
+   43  cat arquivo1.txt 
+   44  cat arquivo2.txt 
+   45  ls
+   46  cd
+   47  ls
+   48  cd 'Área de Trabalho'/
+   49  ls
+   50  cd Trybe/
+   51  pwd
+   52  clear
+   53  ls
+   54  pwd
+   55  mv arquivo2.txt /home/isaac/Área de Trabalho/
+   56  mv arquivo2.txt /home/isaac/Área\ de\ Trabalho/
+   57  ls
+   58  cd..
+   59  cd ..
+   60  ls
+   61  rm arquivo2.txt 
+   62  ls
+   63  mkdir apagar
+   64  ls
+   65  rmdir apagar/
+   66  ls
+   67  rmdir Trybe/
+   68  clear
+   69  pwd
+   70  ls
+   71  cd tr
+   72  cd Trybe/
+   73  ls
+   74  cat arquivo1.txt 
+   75  less arquivo1.txt clear
+   76  cd 'Área de Trabalho'/
+   77  cd Trybe/
+   78  clear
+   79  pwd
+   80  ls
+   81  cat arquivo1.txt 
+   82  less arquivo1.txt 
+   83  head arquivo1.txt 
+   84  tail arquivo1.txt 
+   85  less arquivo1.txt 
+   86  grep arquivo arquivo1.txt 
+   87  wc arquivo1.txt 
+   88  wc -w arquivo1.txt 
+   89  wc -l arquivo1.txt 
+   90  wc -c arquivo1.txt 
+   91  clear
+   92  pwd
+   93  ls
+   94  ls *
+   95  cd
+   96  cd 'Área de Trabalho'/
+   97  ls *
+   98  ls ?
+   99  ls ?rybe
+  100  ls ?ybe
+  101  man
+  102  man ls
+  103  man man
+  104  whatis cp
+  105  whatis man
+  106  apropos copy 
+  107  whatis cd
+  108  cd
+  109  cd 'Área de Trabalho'/
+  110  ls
+  111  cd Trybe/
+  112  whatis mkdir
+  113  ls
+  114  mkdir unix_tests
+  115  ls
+  116  cd u
+  117  cd unix_tests/
+  118  touch trybe.txt
+  119  ls
+  120  whatis cp
+  121  cp trybe.txt trybe_backup.txt
+  122  ls
+  123  whatis
+  124  whatis mv
+  125  mv trybe.txt trybe_turm19.txt 
+  126  ls
+  127  mkdir backup
+  128  ls
+  129  pwd
+  130  mv trybe_backup.txt /home/isaac/Área\ de\ Trabalho/Trybe/unix_tests/backup/
+  131  ls backup
+  132  clear
+  133  pwd
+  134  ls
+  135  mkdir backup2
+  136  ls
+  137  cd backup
+  138  ls
+  139  mv trybe_backup.txt /home/isaac/Área\ de\ Trabalho/Trybe/unix_tests/backup2
+  140  cd ..
+  141  ls
+  142  ls backup2
+  143  ls
+  144  ls backup
+  145  rmdir backup
+  146  ls
+  147  whatis
+  148  whatis mv
+  149  mv backup2 backup
+  150  ls
+  151  pwd
+  152  ls -a
+  153  ls -l
+  154  ls -la
+  155  rm -rf backup/
+  156  ls
+  157  clear
+  158  pwd
+  159  ls
+  160  touch trybe.txt
+  161  ls
+  162  cd 'Área de Trabalho'/
+  163  ls
+  164  cd Trybe
+  165  touch trybe.txt
+  166  mkdir unix_tests
+  167  ls
+  168  cp trybe.txt trybe_backup.txt
+  169  mv trybe.txt trybe_turma19.txt
+  170  cd unix_tests/
+  171  mkdir backup
+  172  ls
+  173  cd ..
+  174  ls
+  175  mv trybe_backup.txt /home/isaac/Área\ de\ Trabalho/Trybe/unix_tests/backup
+  176  ls
+  177  mkdir backup2
+  178  mv backup2/ unix_tests/
+  179  ls unix_tests/
+  180  cd unix_tests/
+  181  cd backup
+  182  pwd
+  183  ls
+  184  mv trybe_backup.txt /home/isaac/Área\ de\ Trabalho/Trybe/unix_tests/backup2
+  185  ls
+  186  cd ..
+  187  ls
+  188  ls backup2
+  189  rmdir backup
+  190  ls
+  191  mv backup2/ backup/
+  192  ls
+  193  pwd
+  194  ls -l
+  195  ls -la
+  196  rm -rf backup
+  197  ls
+  198  clear
+  199  touch skills.txt
+  200  ls
+  201  head skills.txt 
+  202  head -5 skills.txt 
+  203  tail -6 skills.txt 
+  204  tail -4 skills.txt 
+  205  ls
+  206  rm *.txt
+  207  ls
+  208  curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+  209  ls
+  210  cat countries.txt 
+  211  less countries.txt 
+  212  grep Brazil countries.txt 
+  213  grep brazil countries.txt 
+  214  grep -i brazil countries.txt 
+  215  less countries.txt 
+  216  touch phrases.txt
+  217  ls
+  218  cat phrases.txt 
+  219  grep -iv 'fox' phrases.txt 
+  220  grep -iv 'bárbaro' phrases.txt 
+  221  wc phrases.txt 
+  222  wc -w phrases.txt 
+  223  wc -l phrases.txt 
+  224  ls
+  225  ls -l
+  226  touch empty.tbt
+  227  touch empty.pdf
+  228  ls -l
+  229  ls -l *.txt
+  230  whatis or
+  231  whatis &
+  232  ls
+  233  ls -l *.t*
+  234  man ls
+  235  ls
+  236  ls Trybe/
+  237  cd Trybe/
+  238  ls
+  239  cd Módulo\ 1\ -\ Fundamentos\ do\ Desenvolvimento\ Web/
+  240  ls
+  241  cd Bloco\ 01\ -\ Unix\ \&\ Bash/
+  242  clear
+  243  ls
+  244  cp Arquivo\ 1 Arquivo_ts
+  245  cat
+  246  cat > cores.txt
+  247  ls
+  248  cat cores.txt 
+  249  ls
+  250  pwd
+  251  cat >> cores.txt 
+  252  ls
+  253  cat cores.txt 
+  254  cat > frutas.txt
+  255  ls
+  256  cat cores.txt frutas.txt > tudo.txt
+  257  ls
+  258  cat tudo.txt 
+  259  clear
+  260  sort < cores.txt 
+  261  cat cores.txt 
+  262  clear
+  263  sort < cores.txt > coresOrdenadas.txt 
+  264  ls
+  265  cat coresOrdenadas.txt 
+  266  clear
+  267  who
+  268  who | sort
+  269  who | cat > who.txt
+  270  ls
+  271  cat who
+  272  cat who.txt 
+  273  pwd
+  274  pwd | cat caminho.txt
+  275  pwd | cat > caminho.txt
+  276  ls
+  277  cat caminho
+  278  cat caminho.txt 
+  279  cd ~
+  280  clear
+  281  pwd
+  282  cat > nomes.txt
+  283  ls
+  284  ls -l
+  285  ls -l | cat > acesso.txt
+  286  cat acesso.txt 
+  287  clear
+  288  ls -l
+  289  ls ll
+  290  clear
+  291  ls -l
+  292  chmod u-rw acesso.txt 
+  293  ls -l
+  294  cat acesso.txt 
+  295  chmod u+rw acesso.txt 
+  296  ls -l
+  297  cd 'Área de Trabalho'/
+  298  ls
+  299  cat Tormenta-20-v11.pdf 
+  300  clear
+  301  cd
+  302  ls
+  303  ls -l
+  304  cd 'Área de Trabalho'/
+  305  ls -l
+  306  cd
+  307  ls -l
+  308  clear
+  309  ps
+  310  jobs
+  311  sleep 100 &
+  312  jobs
+  313  find -name *.txt
+  314  clear
+  315  ls -l
+  316  find -name *.txt
+  317  find -type d
+  318  find -type f
+  319  clear
+  320  ls -l
+  321  find -name Trybe
+  322  find -name Do
+  323  find -name Do*
+  324  history
+  325  history | cat > comandos.txt
