@@ -6,7 +6,7 @@ Aprendemos a como utilizar o Terminal do Linux para realização mas mais variad
 
 Os blocos previstos neste módulo são:
 
-##### Bloco 1: Introdução - Unix & Shell :green_check_mark:
+##### Bloco 1: Introdução - Unix & Shell :white_check_mark:
 
 ##### Bloco 2: Git & GitHub :hourglass_flowing_sand:
 
