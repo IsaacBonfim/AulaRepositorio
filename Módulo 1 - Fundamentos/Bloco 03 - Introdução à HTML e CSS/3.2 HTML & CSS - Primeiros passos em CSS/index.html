@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 
-<html lang = "pt-br">
+<html lang="pt-br">
 
   <head>
-    <meta charset = "UTF-8">
+    <meta charset="UTF-8">
     <title>index.html</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,19 +12,43 @@
 
     <style>
       
-      h1{
+      h1 {
         color: orange;
         font-size: 65px;
+        font-family: sans-serif;
+        text-decoration: underline;
+        text-shadow: 2px 2px 5px lightskyblue;
       }
       
-      body{
+      body {
         background-color: cornsilk;
         font-family: 'Indie Flower', cursive;
+        font-size: 16px;
+      }
+
+      p {
+        font-weight: 600;
+        font-size: 3em;
+        line-height: 50px;
+        text-align: center;
       }
 
       .listas {
-        background-color: yellow;
+        background-color: lightgoldenrodyellow;
         color: orange;
+        font-style: inherit;
+      }
+      
+      #item1 {
+        background-color: yellow;
+      }
+
+      #item2 {
+        background-color: red;
+      }
+
+      #item3 {
+        background-color: brown;
       }
 
     </style>
@@ -38,9 +62,9 @@
     <p class="listas">Qual é a sua cor favorita?</p>
 
     <ul class="listas">
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+      <li id="item1">Amarelo</li>
+      <li id="item2">Vermelho</li>
+      <li id="item3">Marrom</li>
     </ul>
 
   </body>
