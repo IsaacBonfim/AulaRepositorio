@@ -21,8 +21,8 @@ São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento 
 
 ##### Bloco 3: Git & GitHub
 
-- [ ] 3-1: _Introdução - HTML&CSS_
-- [ ] 3-1: _HTML & CSS - Estruturas de páginas_
+- [X] 3-1: _Introdução - HTML&CSS_
+- [X] 3-1: _HTML & CSS - Estruturas de páginas_
 - [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [ ] 3-4: _HTML Semântico_
