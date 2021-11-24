@@ -8,7 +8,7 @@ Os blocos previstos neste módulo são:
 
 ##### Bloco 1: Introdução - Unix & Shell :white_check_mark:
 
-##### Bloco 2: Git & GitHub :hourglass_flowing_sand:
+##### Bloco 2: Git & GitHub :white_check_mark:
 
 ##### Bloco 3: Introdução à HTML e CSS :hourglass_flowing_sand:
 
