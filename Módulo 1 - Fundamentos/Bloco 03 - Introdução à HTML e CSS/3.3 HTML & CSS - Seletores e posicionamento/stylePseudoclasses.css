@@ -1,0 +1,66 @@
+
+div:hover {
+  width: 200px;
+  height: auto;
+  border: 2px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: darkslategrey;
+}
+
+div:nth-of-type(1) {
+  color: #a54657ff;
+}
+
+div:nth-of-type(2) {
+  color: #582630ff;
+}
+
+div:nth-of-type(3) {
+  color: #f7ee7fff;
+  font-size: 25px;
+  width: 350px;
+}
+
+div:nth-of-type(4) {
+  color: #f1a66aff;
+}
+
+div:nth-of-type(5) {
+  color: #f26157ff;
+}
+
+div:nth-of-type(1) h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-shadow: 2px 1px 2px #f26157ff;
+}
+
+div:nth-of-type(2) h3 {
+  font-family: 'Comforter Brush', cursive;
+  font-weight: lighter;
+  font-size: 25px;
+  text-shadow: 2px 1px 2px #f1a66aff;
+}
+
+div:nth-of-type(3) h3 {
+  font-family: 'Montagu Slab', serif;
+  text-shadow: 2px 1px 2px #000000;
+}
+
+div:nth-of-type(4) h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  text-shadow: 2px 1px 2px #582630ff;
+}
+
+div:nth-of-type(5) h3 {
+  font-family: 'Lobster', cursive;
+  font-weight: lighter;
+  font-size: 25px;
+  text-shadow: 2px 1px 2px #a54657ff;
+}
+
+div:nth-of-type(odd) h3{
+  font-style: italic;
+}

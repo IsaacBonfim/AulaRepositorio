@@ -1,0 +1,26 @@
+/*a {
+  text-decoration: none;
+  color: black;
+}*/
+
+h1, p{
+  text-align: center;
+}
+
+ol li:hover {
+  background-color: black;
+  transition: cubic-bezier(0.895, 0.03, 0.685, 0.22) ;
+  color: aliceblue;
+}
+
+ol li:active {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  color: lightskyblue; 
+}
+
+ol, ul {
+  list-style: none;
+}
+
+/**/
