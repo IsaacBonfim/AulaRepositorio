@@ -7,6 +7,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Soco a 80km/h: Conheça o Stomatopoda</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Lobster&display=swap" rel="stylesheet">
   
   </head>
 
@@ -14,15 +20,17 @@
     
     <header>
 
-      <h1>Soco a 80km/h: Conheça o Stomatopoda</h1>
+      <h1 id="Topo">Soco a 80km/h: Conheça o Stomatopoda</h1>
 
     </header>
 
     <nav>
 
-      <a href="" target="_blank">Página Inicial</a>
-      <a href="" target="_blank">Sobre</a>
-      <a href="" target="_blank">Contato</a>
+      <ul>
+        <li><a href="" target="_blank">Página Inicial</a></li>
+        <li><a href="" target="_blank">Sobre</a></li>
+        <li><a href="" target="_blank">Contato</a></li>
+      </ul>
 
     </nav>
 
@@ -32,22 +40,26 @@
         
         <h2>Fatos sobre o Stomatopoda</h2>
   
-        <section>
+        <section id="info-gerais">
           
           <h3>Informações Gerais</h3>
 
-          <p>O Stomatopoda (ou estomatópode), também chamado de tamarutacas ou de lacraias-do-mar aqui no Brasil, pertence a ordem de crustáceos marinhos da subclasse Hoplocárida, que é a única representante ainda viva desta subclasse, mas não é um grupo tão pequeno, pois ele agrupa cerca de 400 espécies, que são caracterizadas principalmente pela morfologia da segunda pata torácica, que é modificada em um apêndice subquelado, lembrando uma pata de louva-a-deus.</p>
+          <p class="info-gerais">O <b>Stomatopoda</b> (ou <b>estomatópode</b>), também chamado de <b>tamarutacas</b> ou de <b>lacraias-do-mar</b> aqui no Brasil, pertence a ordem de crustáceos marinhos da subclasse <b>Hoplocárida</b>, que é a única representante ainda viva desta subclasse, mas não é um grupo tão pequeno, pois ele agrupa cerca de <b>400 espécies</b>, que são caracterizadas principalmente pela morfologia da segunda pata torácica, que é modificada em um apêndice subquelado, lembrando uma pata de louva-a-deus.</p>
 
-          <table>
+          <table cellpadding="10px" cellpadding="x" border="3" class="info-gerais">
             <thead>
-              <img src="https://static.inaturalist.org/photos/30437316/large.jpg" alt="Stomatopoda" width="300">
               <tr>
-                <td>Nome Científico<br><i>Odontodactylus scyllarus</i></td>
+                <td id="imagem" colspan="2">
+                  <img src="https://static.inaturalist.org/photos/30437316/large.jpg" alt="Stomatopoda" width="300">
+                </td>
+              </tr>
+              <tr>
+                <td id="nomec" colspan="2">Nome Científico<br><i>Odontodactylus scyllarus</i></td>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Classificação científica</td>
+                <td id="classificacao" colspan="2">Classificação científica</td>
               </tr>
               <tr> 
                 <td>Reino</td>
@@ -79,78 +91,98 @@
 
         </section>
         
-        <section>
+        <section id="pesadelo">
 
           <h3>Um Pesadelo do Fundo do Mar</h3>
+          
+          <img src="Soco.png" alt="Stomatopoda após quebrar a concha de outro crustaceo" width="300" class="pesadelo">
+          
+          <div class="pesadelo">
 
-          <img src="Soco.png" alt="Stomatopoda após quebrar a concha de outro crustaceo" width="300">
+            <p>O Stomatopoda é <b>um dos animais mais violentos do mundo</b> ele possui dois apêndices raptoriais na frente de seu corpo, que podem acelerar em <b>menos de 3 milésimos de segundo</b>, na mesma velocidade do tiro de um rifle de calibre vinte, isso é <b>50 vezes mais rápido que o tempo que levamos pra piscar</b>, podendo atingir sua presa com 1.500 Newtons de força.</p> 
+            <p>Só para dar uma ideia, se nós <b>seres humanos</b> pudéssemos acelerar nossos braços a <b>um décimo</b> dessa velocidade, seríamos capazes de lançar uma bola de beisebol <b>em órbita</b>.</p>
 
-          <p>O Stomatopoda é um dos animais mais violentos do mundo ele possui dois apêndices raptoriais na frente de seu corpo, que podem acelerar em menos de 3 milésimos de segundo, na mesma velocidade do tiro de um rifle de calibre vinte, isso é 50 vezes mais rápido que o tempo que levamos pra piscar, podendo atingir sua presa com 1.500 Newtons de força.</p> 
-          <p>Só para dar uma ideia, se nós seres humanos pudéssemos acelerar nossos braços a um décimo dessa velocidade, seríamos capazes de lançar uma bola de beisebol em órbita.</p>
+          </div>
 
         </section>
 
-        <section>
+        <section id="Sol">
 
           <h3>Não é só um soco muuuuito forte</h3>
+          
+          <img src="Sol.png" alt="Imagem efeito exemplificando o efeito da sonoluminescência" width="300" class="sol">
+          
+          <div class="sol">
 
-          <p>Seus membros se movem tão rapidamente que a água ao redor ferve em um processo conhecido como supercavitação. Quando essas bolhas de cavitação entram em colapso, produz uma onda de choque submarina que pode matar a presa mesmo se o camarão mantis errar o alvo.</p>
-            
-            <img src="Sol.png" alt="Imagem efeito exemplificando o efeito da sonoluminescência" width="300">
-            
-          <p>A força dessas bolhas em colapso também produz temperaturas que podem se equiparar a temperatura da superfície do sol e emite minúsculas rajadas de luz. Este efeito é chamado de sonoluminescência
-          </p>
+            <p>Seus membros se movem tão rapidamente que a água ao redor ferve em um processo conhecido como <b>supercavitação</b>. Quando essas bolhas de cavitação entram em colapso, produz uma onda de choque submarina que pode matar a presa mesmo se o camarão mantis errar o alvo.</p>
+          
+            <p>A força dessas bolhas em colapso também produz <b>temperaturas que podem se equiparar a temperatura da superfície do sol</b> e emite minúsculas rajadas de luz. Este efeito é chamado de <b>sonoluminescência</b>.
+            </p>
+
+          </div>
 
         </section>
 
-        <section>
+        <section id="presa">
 
           <h3>Abatendo a Presa</h3>
 
-          <p>Usando essas "varas assassinas", o desmembramento é principalmente a forma como o Stomatopoda mata sua presa. Ele quebra outros animais em pedaços, despedaçando caranguejos, moluscos, ostras e polvos até que a delícia comece a espirrar.</p>
+          <div class="presa">
+
+            <p>Usando essas "varas assassinas", o <b>desmembramento</b> é principalmente a forma como o Stomatopoda mata sua presa. Ele quebra outros animais em pedaços, despedaçando caranguejos, moluscos, ostras e polvos até que a delícia comece a espirrar.</p>
             
-            <img src="Captura.png" alt="Stomatopoda capturando uma presa" width="300">
-            
-          <p>Seus hábitos de caça fazem com que ele não possam ser criados em aquários comuns, pois ele matariam tudo que encontrassem pela frente. Além de que poderiam facilmente quebrar o vidro do aquário</p> 
+            <p>Seus hábitos de caça fazem com que ele não possam ser criados em aquários comuns, pois ele <b>matariam tudo que encontrassem pela frente</b>. Além de que poderiam facilmente <b>quebrar o vidro do aquário</b>.</p> 
+
+          </div>
+
+          <img src="Captura.png" alt="Stomatopoda capturando uma presa" width="300" class="presa">
 
         </section>
 
-        <section>
+        <section id="visao">
 
           <h3>Uma Visão Superior</h3>
 
-          <img src="https://1.bp.blogspot.com/-sxoH9irGQiQ/WwWPTi0VXaI/AAAAAAAAP58/S_qf-RLJS7M-b2Pq5zv21dJyBZ87D7PlQCLcBGAs/s1600/La-gamba-mantis-tiene-un-sistema-de-vision-unico-en-el-reino-animal.jpg" alt="Olhos do Stomatopoda" width="300">
+          <img src="https://1.bp.blogspot.com/-sxoH9irGQiQ/WwWPTi0VXaI/AAAAAAAAP58/S_qf-RLJS7M-b2Pq5zv21dJyBZ87D7PlQCLcBGAs/s1600/La-gamba-mantis-tiene-un-sistema-de-vision-unico-en-el-reino-animal.jpg" alt="Olhos do Stomatopoda" width="300" class="visao">
 
-          <p>Nossos olhos contêm milhões de células sensíveis à luz, chamadas bastonetes e cones.</p>
-            
-          <p>Os bastonetes nos permitem ver a luz e o movimento.<br>
-          Os cones permitem-nos ver as cores.</p>
-            
-          <p>Temos três tipos de cones receptivos à cor. verde, azul e vermelho, e eles nos permitem ver todas as cores que são derivadas deles</p>
-            
-          <p>O Stomatopoda tem nada mais nada menos do que dezesseis cones receptivos à cor, é mais de 5 vezes a quantidade de cones que temos.</p>
-            
-          <p>O arco-íris que vemos origina-se da combinação de apenas três cores, você consegue imaginar um arco-íris criado a partir das possíveis combinações das dezesseis cores que o Stomatopoda pode ver?</p>
-            
-          <p>Onde vemos um arco-íris, ele provavelmente vê uma bomba termonuclear de luz e beleza.</p>
+          <div class="visao">
 
-          <img src="Bomba-de-cores.png" alt="bomba termonuclear de luz e beleza" width="300">
+            <p>Nossos olhos contêm <b>milhões</b> de células sensíveis à luz, chamadas bastonetes e cones.</p>
+              
+            <p><b>Os bastonetes</b> nos permitem ver a luz e o movimento.<br>
+            <b>Os cones</b> permitem-nos ver as cores.</p>
+              
+            <p><b>Temos três tipos de cones</b> receptivos à cor. verde, azul e vermelho, e eles nos permitem ver todas as cores que são derivadas deles</p>
+              
+            <p>Já <b>o Stomatopoda</b> tem nada mais nada menos do que <b>dezesseis cones receptivos</b> à cor, é mais de <b>5 vezes a quantidade de cones que temos</b>.</p>
+              
+          </div>
+          
+          <div class="visao">
+
+            <p>O arco-íris que vemos <b>origina-se da combinação de apenas três cores</b>, você consegue imaginar um arco-íris criado a partir de <b>todas as possíveis combinações das dezesseis cores</b> que o Stomatopoda pode ver?</p>
+              
+            <p><b>Onde vemos um arco-íris, ele provavelmente vê uma bomba termonuclear de luz e beleza.</b></p>
+          
+          </div>
+
+          <img src="Bomba-de-cores.png" alt="bomba termonuclear de luz e beleza" width="300" class="visao">
 
         </section>
 
-        <section>
+        <section id="durao">
 
           <h3>Um Cara Durão</h3>
 
-          <img src="https://pm1.narvii.com/6502/0872de236946b41075bb4e8013a692a1de60251f_hq.jpg" alt="Stomatopoda" width="300">
+          <img src="https://pm1.narvii.com/6502/0872de236946b41075bb4e8013a692a1de60251f_hq.jpg" alt="Stomatopoda" width="300" class="durao">
 
-          <p>Seus membros são tão resistentes que os pesquisadores têm estudado sua estrutura celular para uso no desenvolvimento de armaduras corporais avançadas para tropas de combate.</p>
+          <p class="durao">Seus membros são tão resistentes que os pesquisadores têm <b>estudado sua estrutura celular</b> para uso no <b>desenvolvimento de armaduras</b> corporais avançadas para tropas de combate.</p>
 
         </section>
 
         <section>
           
-          <h4>Referências Bibliográficas</h4>
+          <h3>Referências Bibliográficas</h3>
 
           <ul>
             <li>O video ao lado aponta para este site: https://www.youtube.com/watch?v=E0Li1k5hGBE</li><br>
@@ -166,7 +198,7 @@
 
     <aside>
 
-      <p>Que tal vê-lo em ação? Clique no link abaixo e será redirecionado para um video incrível deste boxeador mortal. 
+      <p>Que tal vê-lo em ação? 
         
         <br>  
         
@@ -179,7 +211,11 @@
 
     <footer>
         
-        "Conteúdo compilado por <b>Isaac Pinto Bonfim de Oliveira</b>, em <b>Novembro</b> de <b>2021</b>".
+      <p> Clique na seta para voltar ao topo</p>
+        
+      <a href="#Topo"><img class="emoji" alt="Seta pra cima" height="20" width="20" src="https://a.slack-edge.com/production-standard-emoji-assets/13.0/google-medium/2b06-fe0f.png"></a>
+
+      <p>"Conteúdo compilado por <b>Isaac Pinto Bonfim de Oliveira</b>, em <b>Novembro</b> de <b>2021</b>".</p>
 
     </footer>
 
