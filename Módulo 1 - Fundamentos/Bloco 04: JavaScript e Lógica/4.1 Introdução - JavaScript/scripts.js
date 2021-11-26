@@ -1,6 +1,6 @@
 const myName = "Isaac";
 const birthCity = "Betim";
-var birthYear = 1991;
+let birthYear = 1991;
 
 birthYear = 2030;
 birthCity = "BH";
