@@ -2,12 +2,13 @@ const myName = "Isaac";
 const birthCity = "Betim";
 var birthYear = 1991;
 
-console.log(myName);
-console.log(birthCity);
-console.log(birthYear);
-
 birthYear = 2030;
 birthCity = "BH";
 
-console.log(birthYear);
+/*
+! O objetivo deste código é realmente gerar um erro ao tentar atribuir um um valor diferente a uma constante
+*/
+
+console.log(myName);
 console.log(birthCity);
+console.log(birthYear);
