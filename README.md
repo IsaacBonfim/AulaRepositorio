@@ -25,5 +25,14 @@ São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento 
 - [X] 3-1: _HTML & CSS - Estruturas de páginas_
 - [X] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [X] 3-3: _HTML & CSS - Seletores e posicionamento_
-- [ ] 3-4: _HTML Semântico_
+- [X] 3-4: _HTML Semântico_
 - [ ] 3-5: _Projeto Lessons Learned_
+
+##### Bloco 4: Introdução à JavaScript e Lógica de Programação :hourglass_flowing_sand:
+
+- [ ] 4-1: _Introdução - JavaScript_
+- [ ] 4-1: _JavaScript - Primeiros passos_
+- [ ] 4-2: _JavaScript - Array e loop For_
+- [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+- [ ] 4-4: _JavaScript - Objetos e funções_
+- [ ] 4-5: _Projeto - Playground Functions_
