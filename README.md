@@ -36,3 +36,5 @@ São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento 
 - [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ ] 4-4: _JavaScript - Objetos e funções_
 - [ ] 4-5: _Projeto - Playground Functions_
+
+##### Bloco 5:
