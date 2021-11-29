@@ -28,7 +28,7 @@ São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento 
 - [X] 3-4: _HTML Semântico_
 - [X] 3-5: _Projeto Lessons Learned_
 
-##### Bloco 4: Introdução à JavaScript e Lógica de Programação :hourglass_flowing_sand:
+##### Bloco 4: Introdução à JavaScript e Lógica de Programação
 
 - [X] 4-1: _Introdução - JavaScript_
 - [X] 4-1: _JavaScript - Primeiros passos_
