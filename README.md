@@ -19,7 +19,7 @@ São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento 
 - [X] 2-2: _Entendendo os comandos_
 - [X] 2-3: _Internet - Entendendo como ela funciona_
 
-##### Bloco 3: Git & GitHub
+##### Bloco 3: Introdução à HTML e CSS
 
 - [X] 3-1: _Introdução - HTML&CSS_
 - [X] 3-1: _HTML & CSS - Estruturas de páginas_
