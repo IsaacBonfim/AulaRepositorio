@@ -32,7 +32,7 @@ if (soma > 15) {
 
 } else {
 
-  // * Caso contrario, deveríamos apenas informar que o valor é inferior a 16.
+  // * Caso contrario deveríamos apenas informar que o valor é inferior a 16.
 
   console.log("Valor menor que 16");
 
