@@ -1,4 +1,4 @@
-let n = 31;
+let n = 9;
 let d = (n-1)/2;
 let e = (n-1)/2;
 
@@ -8,11 +8,7 @@ for (let x = 1; x <= n; x += 2){
 
   for (let y = 0; y < n; y += 1){
 
-    if (x === n) {
-
-      linhas += "*";
-
-    }else if (y === d || y === e) {
+    if (x === n || y === d || y === e) {
     
       linhas += "*";
     
