@@ -20,5 +20,3 @@ let tag = document.getElementsByTagName("p")[1];
 tag.style.backgroundColor = "#f79d84ff";
 tag.style.textShadow = "1px 1px 2px black";
 console.log(tag);
-
-// Recupere o subtítulo e altere a cor dele usando a função getElementsByTagName .
