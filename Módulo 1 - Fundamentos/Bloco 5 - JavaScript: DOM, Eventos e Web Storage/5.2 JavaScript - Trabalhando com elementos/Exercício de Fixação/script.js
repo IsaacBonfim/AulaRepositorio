@@ -1,4 +1,5 @@
 // * Para uma melhor organização, faça commits a cada tarefa concluída.
+// ^ Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body;
 
 let corpo = document.querySelector('body');
 
@@ -7,9 +8,16 @@ titulo.innerText = 'Exercício 5.2 - JavaScript DOM';
 
 corpo.appendChild(titulo);
 
-// Adicione a tag main com a classe main-content como filho da tag body ;
+// ^ Adicione a tag main com a classe main-content como filho da tag body;
 
-// Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
+let principal = document.createElement('main');
+principal.className = 'main-content';
+
+corpo.appendChild(principal);
+
+// ^ Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
+
+
 
 // Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
 
@@ -22,3 +30,4 @@ corpo.appendChild(titulo);
 // Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um , dois , três , ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
 
 // Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
+console.log(corpo);
