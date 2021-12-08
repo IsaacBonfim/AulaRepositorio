@@ -40,12 +40,12 @@ function atualizaTexto(evento){
 
 input.addEventListener('keyup', atualizaTexto);
 
-// 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
-// redirecione para alguma página;
-// 4.1. Que tal redirecionar para seu portifólio?
+// ^ 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
+// ^ redirecione para alguma página;
+// ^ 4.1. Que tal redirecionar para seu portifólio?
 
 function redirecionar(evento){
-  console.log(evento);
+  window.location.href = 'https://isaacbonfim.github.io/'
 }
 
 myWebpage.addEventListener('dblclick', redirecionar);
