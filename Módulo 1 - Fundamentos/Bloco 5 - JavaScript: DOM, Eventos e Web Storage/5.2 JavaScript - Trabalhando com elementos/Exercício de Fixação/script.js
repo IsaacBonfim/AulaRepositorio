@@ -55,5 +55,18 @@ esquerda.appendChild(imagem);
 
 let lista = document.createElement('ul');
 
-// Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
+direita.appendChild(lista);
+
+let valores = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+
+for (let i = 0; i < valores.length; i += 1) {
+  let valor = valores[i];
+  
+  let itens = document.createElement('li');
+  itens.textContent = valor;
+
+  lista.appendChild(itens);
+}
+
+// ^ Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
 console.log(corpo);
