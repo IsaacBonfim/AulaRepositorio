@@ -104,6 +104,12 @@ centro.style.backgroundColor = 'green';
 
 // ^ Remova os dois últimos elementos ( nove e dez ) da lista criada no passo 8.
 
+let elementos = document.querySelectorAll('li');
 
+for (let i = 0; i < elementos.length; i += 1) {
+  let elemento = elementos[i];
 
-console.log(corpo);
+  if (elemento.innerText.includes('nove') || elemento.innerText.includes('dez')) {
+    lista.removeChild(elemento);
+  }
+}
