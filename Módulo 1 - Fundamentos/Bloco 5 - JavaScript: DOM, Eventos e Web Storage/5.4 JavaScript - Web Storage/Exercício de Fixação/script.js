@@ -7,6 +7,7 @@ const corDoTexto = document.getElementById('corDoTexto');
 const tamanhoDaFonte = document.getElementById('tamanhoFonte');
 const espacamento = document.getElementById('espacamento');
 const letras = document.getElementById('fonte');
+const botao = document.getElementById('padrao');
 
 // ! As pessoas devem ter o poder de alterar:
 
@@ -14,12 +15,16 @@ const letras = document.getElementById('fonte');
 
 function corDaTela(evento) {
   body.style.backgroundColor = evento.target.value;
+
+  localStorage.setItem('body.style.backgroundColor', evento.target.value); 
 }
 
 fundoDaTela.addEventListener('change', corDaTela);
 
 function corDoFundoDoTexto(evento) {
   section.style.backgroundColor = evento.target.value;
+
+  localStorage.setItem('section.style.backgroundColor', evento.target.value);
 }
 
 fundoDoTexto.addEventListener('change', corDoFundoDoTexto);
@@ -28,6 +33,8 @@ fundoDoTexto.addEventListener('change', corDoFundoDoTexto);
 
 function corTexto(evento) {
   section.style.color = evento.target.value;
+
+  localStorage.setItem('section.style.color', evento.target.value);
 }
 
 corDoTexto.addEventListener('change', corTexto);
@@ -36,6 +43,8 @@ corDoTexto.addEventListener('change', corTexto);
 
 function tamanho(evento) {
   section.style.fontSize = evento.target.value + 'px';
+
+  localStorage.setItem('section.style.fontSize', evento.target.value);
 }
 
 tamanhoDaFonte.addEventListener('click', tamanho);
@@ -44,6 +53,8 @@ tamanhoDaFonte.addEventListener('click', tamanho);
 
 function espacoLinhas(evento) {
   section.style.lineHeight = evento.target.value + 'px';
+
+  localStorage.setItem('section.style.lineHeight', evento.target.value);
 }
 
 espacamento.addEventListener('click', espacoLinhas);
@@ -52,8 +63,47 @@ espacamento.addEventListener('click', espacoLinhas);
 
 function tipoDaLetra(evento) {
   section.style.fontFamily = evento.target.value;
+
+  localStorage.setItem('section.style.fontFamily', evento.target.value);
 }
 
 fonte.addEventListener('keyup', tipoDaLetra);
 
 // * Essas preferências devem ser salvas de forma que, ao retornar à página, as preferências que foram previamente configuradas possam ser aplicadas na tela.
+
+function carregaDados() {
+  //^ Carregando cor de Fundo da Tela
+  if (localStorage.getItem('body.style.backgroundColor') !== null){
+    body.style.backgroundColor = localStorage.getItem('body.style.backgroundColor');
+  }
+  //^ Carregando cor de Fundo do Texto
+  if (localStorage.getItem('section.style.backgroundColor') !== null){
+    section.style.backgroundColor = localStorage.getItem('section.style.backgroundColor');
+  }
+  //^ Carregando cor do Texto
+  if (localStorage.getItem('section.style.color') !== null){
+    section.style.color = localStorage.getItem('section.style.color');
+  }
+  //^ Carregando tamanho da Fonte
+  if (localStorage.getItem('section.style.fontSize') !== null){
+    section.style.fontSize = localStorage.getItem('section.style.fontSize') + 'px';
+  }
+  //^ Carregando Espaçamento das Linhas
+  if (localStorage.getItem('section.style.lineHeight') !== null){
+    section.style.lineHeight = localStorage.getItem('section.style.lineHeight') + 'px';
+  }
+  //^ Carregando Tipo da Fonte
+  if (localStorage.getItem('section.style.fontFamily') !== null){
+    section.style.fontFamily = localStorage.getItem('section.style.fontFamily')
+  }
+}
+
+window.onload = carregaDados()
+
+function limpaStorage(evento) {
+  localStorage.clear();
+
+  window.location.reload();
+}
+
+botao.addEventListener('click', limpaStorage);

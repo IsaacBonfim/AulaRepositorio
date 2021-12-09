@@ -122,3 +122,26 @@ h5.fonte {
 input#fonte {
   width: 150px;
 }
+
+h5.padrao {
+  font-size: 15px;
+  text-align: center;
+}
+
+input#padrao {
+  text-align: center;
+  font-weight: bold;
+  color: #e8ebe4ff;
+  text-shadow: 1px 1px 1px #798071ff;
+  margin-left: 80px;
+  background-color: #b8bacfff;
+  padding: 10px;
+  border-width: 3px;
+  border-color: #999ac6ff;
+  border-radius: 20px;
+  box-shadow: 2px 2px 3px #d2d5ddff;
+}
+
+/* CSS HEX 
+*--light-gray: #d2d5ddff;
+*/
