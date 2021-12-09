@@ -100,6 +100,8 @@ function carregaDados() {
 
 window.onload = carregaDados()
 
+//^ Configuração do botão para recarregar as configurações padrão.
+
 function limpaStorage(evento) {
   localStorage.clear();
 
