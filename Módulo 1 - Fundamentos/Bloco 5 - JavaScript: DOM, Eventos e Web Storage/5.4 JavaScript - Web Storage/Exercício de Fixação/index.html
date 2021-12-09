@@ -5,8 +5,7 @@
   <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale">
-    
+       
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>Lorem Ipsum</title>
@@ -17,7 +16,7 @@
 
   </head>
   
-  <body>
+  <body id="corpo">
 
     <header id="Topo">
     
@@ -27,7 +26,7 @@
 
     <main>
 
-      <section>
+      <section id="bgTexto">
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elit massa, laoreet ut pretium ut, luctus vitae ipsum. Nullam ex urna, interdum sit amet sodales non, accumsan sit amet tortor. Vestibulum fringilla ipsum nibh, sed pulvinar nulla rutrum ut. Mauris venenatis malesuada nulla, a imperdiet urna rutrum sit amet. Duis velit leo, feugiat eu cursus quis, tincidunt vel turpis. Mauris egestas vehicula quam, accumsan mattis lectus aliquam eget. Curabitur imperdiet ante quis bibendum ultricies. Maecenas elementum purus vel nulla maximus ultrices non sit amet tortor. Integer imperdiet, urna sit amet fringilla feugiat, lacus diam ultrices quam, id dignissim ipsum massa sit amet sem. Phasellus rhoncus tincidunt bibendum. Vivamus pellentesque mi neque, vel pharetra purus ornare ac. Nullam nec augue vel nulla gravida lacinia. Ut facilisis dui sed leo pellentesque, ac aliquam lacus eleifend. Fusce rutrum eros at ex iaculis, vel luctus nisl tincidunt. Sed vehicula dolor molestie ante aliquet, quis condimentum diam vulputate. Aenean efficitur consectetur elementum.</p>
         <p>Morbi turpis libero, tincidunt ut vestibulum nec, egestas vehicula dui. Donec congue fermentum erat eu tincidunt. Donec fermentum turpis vel bibendum consectetur. Sed tincidunt aliquam bibendum. Aliquam ultrices libero a eros vehicula, vel mattis nisl auctor. In ut pulvinar libero. Aliquam quis justo et est gravida venenatis eget eget ante. Proin elementum mauris eget finibus placerat. Integer pellentesque efficitur justo, sit amet tincidunt lorem tempus sollicitudin. Ut sodales nunc eu nisi convallis mollis. Praesent massa lorem, placerat a mauris at, rutrum blandit nisi. Proin elementum velit placerat efficitur finibus.</p>
@@ -44,32 +43,26 @@
       <h3>Controle suas preferencias para o texto aqui</h3>
       
       <h5 class="bg">Cor do fundo de Tela</h5>
+      <input id="bg" type="color">
       
-      <input type="color">
-      
-      <h5 class="bgTexto">Cor do fundo do Texto</h5>
-      
-      <input type="color">
+      <h5 class="corBgTexto">Cor do fundo do Texto</h5>
+      <input id="corBgTexto" type="color">
 
       <h5 class="corDoTexto">Cor do Texto</h5>
-      
-      <input type="color" >
+      <input id="corDoTexto" type="color" >
 
       <h5 class="tamanhoFonte">Tamanho da Fonte</h5>
-      
-      <input id="tamanhoFonte" type="number" placeholder="Tamanho" min="0">
+      <input id="tamanhoFonte" type="number" min="0" value="16">
 
       <h5 class="espacamento">Espaçamento das Linhas</h5>
-      
-      <input id="espacamento" type="number" placeholder="Espaçamento" min="0">
+      <input id="espacamento" type="number" min="0" value="20">
 
       <h5 class="fonte">Tipo da Fonte</h5>
-      
       <input id="fonte" type="text" placeholder="Tipo da Fonte">
 
     </aside>
 
-    <script type="text/javascript" href="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
     
   </body>
 
