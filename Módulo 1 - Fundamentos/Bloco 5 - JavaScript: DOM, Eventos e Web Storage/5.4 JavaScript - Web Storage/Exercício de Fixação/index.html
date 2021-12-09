@@ -11,11 +11,15 @@
 
     <title>Lorem Ipsum</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
   </head>
   
   <body>
 
-    <header>
+    <header id="Topo">
     
       <h1>Lorem Ipsum</h1>
     
@@ -36,28 +40,28 @@
     </main>
 
     <aside>
-      
-      <h3>Insinra suas preferencias para o texto aqui</h3>
-      
-      <h5>Cor do fundo de Tela</h5>
-      
-      <input type="color" placeholder="Background">
 
-      <h5>Cor do Texto</h5>
+      <h3>Controle suas preferencias para o texto aqui</h3>
       
-      <input type="color" placeholder="Texto">
+      <h5 class="bg">Cor do fundo de Tela</h5>
+      
+      <input type="color">
 
-      <h5>Tamanho da Fonte</h5>
+      <h5 class="corDoTexto">Cor do Texto</h5>
       
-      <input type="number" placeholder="Tamanho da Fonte">
+      <input type="color" >
 
-      <h5>Espaçamento entre as Linhas</h5>
+      <h5 class="tamanhoFonte">Tamanho da Fonte</h5>
       
-      <input type="number" placeholder="Espaçamento das Linhas">
+      <input id="tamanhoFonte" type="number" placeholder="Tamanho" min="0">
 
-      <h5>Tipo da Fonte</h5>
+      <h5 class="espacamento">Espaçamento das Linhas</h5>
       
-      <input type="text" placeholder="Tipo da Fonte">
+      <input id="espacamento" type="number" placeholder="Espaçamento" min="0">
+
+      <h5 class="fonte">Tipo da Fonte</h5>
+      
+      <input id="fonte" type="text" placeholder="Tipo da Fonte">
 
     </aside>
 
