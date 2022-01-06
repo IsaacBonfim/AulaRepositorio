@@ -16,11 +16,121 @@
   
   <body>
   
-    <form action="" method="get">
+    <form action="" method="get" id="formulario">
       
       <fieldset>
+
+        <h2>Informações Pessoais</h2>
+
+        <div>
+
+          <label for="nome">Nome:
+            <input id="nome" type="text" name="nome" maxlength="40" required>
+          </label>
         
+        </div>
+
+        <div>
+
+          <label for="email">E-mail:
+            <input id="email" type="email" name="email" maxlength="50" required>
+          </label>
+
+        </div>
+
+        <div>
+
+          <label for="cpf">CPF:
+            <input id="cpf" type="text" name="cpf" maxlength="11" required>
+          </label>
+
+        </div>
+
+        <div>
+
+          <label for="endereco">Endereço:
+            <input id="endereco" type="text" name="endereco" maxlength="200" required>
+          </label>
+
+        </div>
+
+        <div>
+
+          <label for="cidade">Cidade:
+            <input id="cidade" type="text" name="cidade" maxlength="28" required>
+          </label>
+
+        </div>
+
+        <div>
+
+          <label for="estado">Estado:
+
+            <select id="estado" name="estado" required>
+            </select>
+          
+          </label>
+
+        </div>
+
+        <div>
+
+          <p>Complemento</p>
+          
+          <div>
+        
+            <label for="casa">
+              <input id="casa" type="radio" name="complemento" required>
+              Casa
+            </label>
+
+            <label for="apartamento">
+              <input id="apartamento" type="radio" name="complemento" required>
+              Apartamento
+            </label>
+        
+          </div>
+        
+        </div>
+
       </fieldset>
+
+      <fieldset>
+
+        <h2>Informações Proficionais</h2>
+
+        <div>
+          <label for="resumo"><p>Resumo Curricular:</p>
+            <textarea id="resumo" name="resumo" maxlength="1000" cols="30" rows="10" required></textarea>
+          </label>
+        </div>
+
+        <div>
+
+          <div>
+            <label for="cargo">Cargo:
+              <input id="cargo" type="text" name="cargo" maxlength="40" required>
+            </label>
+          </div>
+
+          <div>
+            <label for="descricao">Descrição do Cargo:
+              <input id="descricao" type="text" name="descricao" maxlength="500" required>
+            </label>
+          </div>
+
+        </div>
+
+        <div>
+          <label for="dataInicio">Data de Inicio:
+            <input id="dataInicio" type="text" name="dataInicio" required>
+          </label>
+        </div>
+
+      </fieldset>
+
+      <button id="envio" type="submit">Enviar</button>
+      <button id="reset" type="reset">Limpar</button>
 
     </form>
 
