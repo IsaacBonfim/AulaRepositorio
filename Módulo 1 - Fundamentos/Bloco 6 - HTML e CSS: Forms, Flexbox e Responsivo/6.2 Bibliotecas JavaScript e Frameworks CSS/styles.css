@@ -1,1 +1,21 @@
-/* Estilos do Formulário de Currículo */
+fieldset {
+  margin: 5px;
+  box-shadow: 1px 1px 3px;
+}
+
+fieldset.container {
+  padding: 0;
+  background-color: rgba(232, 235, 228, 1);
+}
+
+h2 {
+  color: white;
+}
+
+button {
+  margin: 10px 5px;
+}
+
+div.center {
+  text-align: center;
+}
