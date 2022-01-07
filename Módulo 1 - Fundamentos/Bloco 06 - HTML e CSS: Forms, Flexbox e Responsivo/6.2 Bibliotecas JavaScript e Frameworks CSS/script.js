@@ -27,56 +27,58 @@ let picker = new Pikaday({
   }
 });
 
-function montaRetorno() {
-  let string = '';
-  let aux = '';
+validation.init();
 
-  for (let i = 0; i < inputs.length; i += 1) {
-    string += `\n${inputs[i].id}: ${inputs[i].value};`;
-  }
+// function montaRetorno() {
+//   let string = '';
+//   let aux = '';
 
-  aux = string;
+//   for (let i = 0; i < inputs.length; i += 1) {
+//     string += `\n${inputs[i].id}: ${inputs[i].value};`;
+//   }
 
-  string = `As informações fornecidas foram: ${aux} \n${resumo.value}`;
+//   aux = string;
 
-  return string;
-}
+//   string = `As informações fornecidas foram: ${aux} \n${resumo.value}`;
 
-function enviar(evento) {
-  evento.preventDefault();
+//   return string;
+// }
 
-  const retorno = document.createElement('div');
-  const invalidos = document.createElement('div');
+// function enviar(evento) {
+//   evento.preventDefault();
 
-  let itensInvalidos = '';
+//   const retorno = document.createElement('div');
+//   const invalidos = document.createElement('div');
+
+//   let itensInvalidos = '';
   
-  for (let i = 0; i < inputs.length; i += 1) {
-    if (inputs[i].value.trim() === '') {
-      window.alert(`Por favor preencha o campo ${inputs[i].id}`);
-      itensInvalidos += `\n ${inputs[i].id}: vazio;`
-    }
-  }
+//   for (let i = 0; i < inputs.length; i += 1) {
+//     if (inputs[i].value.trim() === '') {
+//       window.alert(`Por favor preencha o campo ${inputs[i].id}`);
+//       itensInvalidos += `\n ${inputs[i].id}: vazio;`
+//     }
+//   }
   
-  if (resumo.value.trim() === '') {
-    window.alert(`Por favor preencha o campo Resumo Curricular`);
-    itensInvalidos += `\n ${resumo.id}: vazio;`
-  }
+//   if (resumo.value.trim() === '') {
+//     window.alert(`Por favor preencha o campo Resumo Curricular`);
+//     itensInvalidos += `\n ${resumo.id}: vazio;`
+//   }
 
-  retorno.innerText = montaRetorno();
-  retorno.id = 'retorno';
-  invalidos.innerText = `\nOs seguintes campos devem ser revisados: ${itensInvalidos}`;
-  invalidos.id = 'invalidos';
+//   retorno.innerText = montaRetorno();
+//   retorno.id = 'retorno';
+//   invalidos.innerText = `\nOs seguintes campos devem ser revisados: ${itensInvalidos}`;
+//   invalidos.id = 'invalidos';
 
-  if (formulario.lastChild.id === 'invalidos') {
-    formulario.lastChild.remove();
-  }
+//   if (formulario.lastChild.id === 'invalidos') {
+//     formulario.lastChild.remove();
+//   }
 
-  if (formulario.lastChild.id === 'retorno') {
-    formulario.lastChild.remove();
-  }
+//   if (formulario.lastChild.id === 'retorno') {
+//     formulario.lastChild.remove();
+//   }
 
-  formulario.appendChild(retorno);
-  formulario.appendChild(invalidos);
-}
+//   formulario.appendChild(retorno);
+//   formulario.appendChild(invalidos);
+//  }
 
-envio.addEventListener ('click', enviar);
+//  envio.addEventListener ('click', enviar);
