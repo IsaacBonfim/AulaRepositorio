@@ -53,8 +53,6 @@ function montaRetorno() {
 
   aux = string;
 
-  console.log(aux);
-
   string = `As informações fornecidas foram: ${aux} \n${resumo.value}`;
 
   return string;
