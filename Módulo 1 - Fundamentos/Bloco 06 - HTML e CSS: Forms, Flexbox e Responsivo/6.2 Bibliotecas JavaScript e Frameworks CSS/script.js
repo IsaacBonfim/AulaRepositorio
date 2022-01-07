@@ -1,5 +1,4 @@
 const formulario = document.getElementById('formulario');
-const dataCompleta = document.getElementById('dataInicio');
 const selector = document.getElementById('estado');
 const envio = document.getElementById('envio');
 const inputs = document.querySelectorAll('input');
@@ -20,28 +19,13 @@ function adicionaEstados() {
 
 window.onload = adicionaEstados();
 
-function validaData() {
-  const data = dataCompleta.value.split('/');
-  const dia = parseInt(data[0], 10);
-  const mes = parseInt(data[1], 10);
-  const ano = parseInt(data[2], 10);
-  
-  if (dia <= 0 || dia > 31) {
-    window.alert(`Dia inválido!
-      \nO dia informado de ser maior que 0 e menor que 31
-      \nUtilize o formato de data dd/mm/aaaa`);
+let picker = new Pikaday({ 
+  field: document.getElementById('datepicker'),
+  format: 'D MMM YYYY',
+  onSelect: function() {
+    console.log(this.getMoment().format('Do MMMM YYYY'));
   }
-  if (mes <= 0 || mes > 12) {
-    window.alert(`Mês inválido! 
-      \nO mês informado de ser maior que 0 e menor que 12
-      \nUtilize o formato de data dd/mm/aaaa`);
-  } 
-  if (ano <= 0 || ano > 2022) {
-    window.alert(`Ano inválido!
-      \nO ano informado de ser maior que 0 e menor ou igual ao ano atual
-      \nUtilize o formato de data dd/mm/aaaa`);
-  }
-}
+});
 
 function montaRetorno() {
   let string = '';
@@ -52,8 +36,6 @@ function montaRetorno() {
   }
 
   aux = string;
-
-  console.log(aux);
 
   string = `As informações fornecidas foram: ${aux} \n${resumo.value}`;
 
@@ -80,12 +62,18 @@ function enviar(evento) {
     itensInvalidos += `\n ${resumo.id}: vazio;`
   }
 
-  validaData();
-
-  retorno.innerText = '';
   retorno.innerText = montaRetorno();
-  invalidos.innerText = '';
+  retorno.id = 'retorno';
   invalidos.innerText = `\nOs seguintes campos devem ser revisados: ${itensInvalidos}`;
+  invalidos.id = 'invalidos';
+
+  if (formulario.lastChild.id === 'invalidos') {
+    formulario.lastChild.remove();
+  }
+
+  if (formulario.lastChild.id === 'retorno') {
+    formulario.lastChild.remove();
+  }
 
   formulario.appendChild(retorno);
   formulario.appendChild(invalidos);
