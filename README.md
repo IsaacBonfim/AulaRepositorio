@@ -41,11 +41,21 @@ São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento 
 
 - [X] 5-1: _JavaScript - DOM e seletores_
 - [X] 5-2: _JavaScript - Trabalhando com elementos_
-- [ ] 5-3: _JavaScript - Eventos_
-- [ ] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _Fundamentos - JavaScript - Projetos_
-- [ ] 5-5: _Projeto - Arte com Pixels_
-- [ ] 5-6: _Projeto - Lista de Tarefas_
-- [ ] 5-7: _(Bônus) Projeto - Meme Generator_
-- [ ] 5-7: _(Bônus) Projeto - Adivinhe a Cor_
-- [ ] 5-7: _(Bônus) Projeto - Carta Misteriosa_
+- [X] 5-3: _JavaScript - Eventos_
+- [X] 5-4: _JavaScript - Web Storage_
+- [X] 5-5: _Fundamentos - JavaScript - Projetos_
+- [X] 5-5: _Projeto - Arte com Pixels_
+- [X] 5-6: _Projeto - Lista de Tarefas_
+- [X] 5-7: _(Bônus) Projeto - Meme Generator_
+- [X] 5-7: _(Bônus) Projeto - Adivinhe a Cor_
+- [X] 5-7: _(Bônus) Projeto - Carta Misteriosa_
+
+##### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
+
+- [X] 5-1: _HTML & CSS - Forms_
+- [X] 5-2: _Bibliotecas JavaScript e Frameworks CSS_
+- [X] 5-3: _Introdução - CSS Flexbox_
+- [X] 5-3: _CSS Flexbox - Parte 1_
+- [X] 5-4: _CSS Flexbox - Parte 2_
+- [X] 5-5: _CSS Responsivo - Mobile First_
+- [X] 5-6: _Projeto - Trybewarts_
