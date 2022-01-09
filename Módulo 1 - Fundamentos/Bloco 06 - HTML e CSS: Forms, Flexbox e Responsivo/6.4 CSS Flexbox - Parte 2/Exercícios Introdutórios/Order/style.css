@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  height: 50px;
+  padding: 0;
+  margin: auto;
+  width: 500px;
+  border: 1px solid black;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+}
+
+.one {
+  display: flex;
+  order: 3;
+  list-style: none;
+  background-color: #FBD26A;
+}
+
+.two {
+  display: flex;
+  order: 4;
+  list-style: none;
+  background-color: #FAA488;
+}
+
+.three {
+  display: flex;
+  order: 2;
+  list-style: none;
+  background-color: #9069EF;
+}
+
+.four {
+  display: flex;
+  order: 1;
+  list-style: none;
+  background-color: #006472;
+}
