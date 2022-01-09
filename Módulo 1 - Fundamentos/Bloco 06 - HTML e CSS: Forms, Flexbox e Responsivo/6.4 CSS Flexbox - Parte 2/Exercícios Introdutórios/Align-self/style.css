@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  height: 300px;
+  margin: auto;
+  width: 500px;
+  padding: 0;
+  border: 1px solid black;
+}
+
+.keep {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: 150px;
+  list-style: none;
+  background-color: #FAA488;
+}
+
+.change {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 200px;
+  list-style: none;
+  background-color: #FBD26A;
+}
