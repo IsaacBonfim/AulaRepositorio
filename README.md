@@ -57,5 +57,5 @@ São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento 
 - [X] 5-3: _Introdução - CSS Flexbox_
 - [X] 5-3: _CSS Flexbox - Parte 1_
 - [X] 5-4: _CSS Flexbox - Parte 2_
-- [X] 5-5: _CSS Responsivo - Mobile First_
-- [X] 5-6: _Projeto - Trybewarts_
+- [ ] 5-5: _CSS Responsivo - Mobile First_
+- [ ] 5-6: _Projeto - Trybewarts_
