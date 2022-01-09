@@ -51,6 +51,8 @@ body {
 .movie-container {
   display: flex;
   flex-direction: column;
+  flex-basis: 700px;
+  flex-grow: 10;
 }
 
 .movie-container h2 {
@@ -65,18 +67,23 @@ body {
 }
 
 .card-container div {
-  align-items: center;
-  background-color: #5C687C;
-  border: black solid 1px;
   display: flex;
   height: 150px;
+  background-color: #5C687C;
+  align-items: center;
+  flex-basis: 16%;
+  flex-grow: 1;
   justify-content: center;
+  border: 1px solid black;
   margin: 10px;
 }
 
 .aside-container {
   display: flex;
+  align-self: center;
+  flex-basis: 350px;
   flex-direction: column;
+  flex-grow: 1;
   margin: 20px;
 }
 
