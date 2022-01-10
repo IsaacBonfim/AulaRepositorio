@@ -1,7 +1,7 @@
 @media screen and (max-width: 500px) {
   div.card:nth-of-type(1) {
     display: flex;
-  }
+  } 
 
   body {
     background-color: black;
