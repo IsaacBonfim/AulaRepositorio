@@ -1,3 +1,3 @@
-#### Exercício 1
+## Exercício 1
 
 **Objetivo:** Criar uma função que retorne um _objeto_ no formato { nomeCompleto, email } representando uma nova pessoa contratada. Passar minha função _como parâmetro_ da HOF **newEmployees** para _criar cada pessoa contratada em seu respectivo id_. A função deve receber como parâmetro o nome completo da pessoa funcionária e a partir dele gerar automaticamente um email no formato nome_da_pessoa@trybe.com .

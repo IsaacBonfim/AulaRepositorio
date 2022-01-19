@@ -1,7 +1,7 @@
 const contratada = (string) => {
   const pessoaContratada = {
     nomeCompleto: string,
-    email: `${string.toLowerCase().split(' ').join('_')}@trybe.com`
+    email: `${string.toLowerCase().replace(' ','_')}@trybe.com`
   };
   return pessoaContratada;
 };
