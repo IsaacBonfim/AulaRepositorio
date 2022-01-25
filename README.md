@@ -74,5 +74,5 @@ São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento 
 - [X] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [X] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 - [X] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
-- [ ] 6-6: _Projeto - Zoo functions_
+- [ ] 8-6: _Projeto - Zoo functions_
 
