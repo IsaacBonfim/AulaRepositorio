@@ -10,16 +10,16 @@ Os blocos previstos neste módulo são:
 
 ##### Bloco 2: Git & GitHub :white_check_mark:
 
-##### Bloco 3: Introdução à HTML e CSS :hourglass_flowing_sand:
+##### Bloco 3: Introdução à HTML e CSS :white_check_mark:
 
-##### Bloco 4: Introdução à JavaScript e Lógica de Programação :hourglass_flowing_sand:
+##### Bloco 4: Introdução à JavaScript e Lógica de Programação :white_check_mark:
 
-##### Bloco 5: JavaScript: DOM, Eventos e Web Storage :hourglass_flowing_sand:
+##### Bloco 5: JavaScript: DOM, Eventos e Web Storage :white_check_mark:
 
-##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo :hourglass_flowing_sand:
+##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo :white_check_mark:
 
-##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários :hourglass_flowing_sand:
+##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários :white_check_mark:
 
-##### Bloco 8: Higher Order Functions do JavaScript ES6 :hourglass_flowing_sand:
+##### Bloco 8: Higher Order Functions do JavaScript ES6 :white_check_mark:
 
-##### Bloco 9: JavaScript e Testes Assíncronos :hourglass_flowing_sand:
+##### Bloco 9: JavaScript e Testes Assíncronos :white_check_mark:
