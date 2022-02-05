@@ -1,0 +1,23 @@
+{
+  "name": "trybe",
+  "version": "1.0.0",
+  "description": "O objetivo deste repositório é armazenar todos o conteudo e atividades desenvolvidos por _[Isaac Pinto Bonfim de Oliveira](www.linkedin.com/in/isaacpboliveira)_ durante o decorrer do curso na [Trybe](https://www.betrybe.com/) :rocket:.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaacBonfim/Trybe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsaacBonfim/Trybe/issues"
+  },
+  "homepage": "https://github.com/IsaacBonfim/Trybe#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
