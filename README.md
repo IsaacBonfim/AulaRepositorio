@@ -6,7 +6,7 @@ _"A [Trybe](https://www.betrybe.com/) é uma escola de tecnologia que tem compro
 
 São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento web, Front-end, Back-end, ciência da computação, metodologias ágeis e habilidades comportamentais.
 
-### Módulo 1 - Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
+### Módulo 1 - Fundamentos do Desenvolvimento Web :white_check_mark:
 
 ##### Bloco 1: Introdução - Unix & Shell 
 
@@ -74,5 +74,22 @@ São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento 
 - [X] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [X] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 - [X] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
-- [ ] 8-6: _Projeto - Zoo functions_
+- [X] 8-6: _Projeto - Zoo functions_
+
+##### Bloco 09: JavaScript e Testes Assíncronos
+
+- [X] 9-1: _JavaScript Assíncrono e Callbacks_
+- [X] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
+- [X] 9-3: _Jest - Testes Assíncronos_
+- [X] 9-4: _Projeto - Carrinho de Compras_
+
+### Módulo 2 - Desenvolvimento Front-end :hourglass_flowing_sand:
+
+##### Bloco 10: Introdução à React
+
+- [ ] 10-1: _Introdução - Front-end_
+- [ ] 10-1: _Introdução - React_
+- [ ] 10-1: _'Hello, world!' no React!_
+- [ ] 10-2: _Componentes React_
+- [ ] 10-3: _Projeto - Sistema Solar_
 
