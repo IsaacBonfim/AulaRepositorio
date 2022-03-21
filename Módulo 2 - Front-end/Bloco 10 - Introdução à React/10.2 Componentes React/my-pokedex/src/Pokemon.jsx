@@ -32,4 +32,4 @@ Pokemon.propTypes = {
   })
 }
 
-export default Pokemon
+export default Pokemon;
