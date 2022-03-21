@@ -2,7 +2,8 @@
 --usafa-blue: rgba(38, 84, 124, 1);
 --paradise-pink: rgba(239, 71, 111, 1);
 --orange-yellow-crayola: rgba(255, 209, 102, 1);
---caribbean-green: rgba(6, 214, 160, 1);
+--caribbean-green1: rgba(6, 214, 160, 1);
+--caribbean-green2: rgba(6, 214, 160, 0.5);
 --baby-powder: rgba(255, 252, 249, 1);
 }
 
@@ -10,34 +11,72 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: var(--caribbean-green);
+  background-color: var(--caribbean-green2);
 }
 
 .App h1 {
+  color: var(--orange-yellow-crayola);
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 40px;
   text-align: center;
+  text-shadow: 2px 2px 3px var(--usafa-blue);
   width: 100%;
+  -webkit-text-stroke-color: var(--usafa-blue);
+  -webkit-text-stroke-width: 2px;
+}
+
+.pokedex {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
 }
 
 .container {
-  display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  min-width: 350px;
-  flex-grow: 2;
   background-color: var(--baby-powder);
   border: 3px solid var(--orange-yellow-crayola);
   border-radius: 15px;
   box-shadow: 3px 3px 2px var(--usafa-blue);
-  margin: 1%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  margin: 10px;
+  min-width: 275px;
+  width: 400px;
 }
 
 .container div {
   text-align: center;
 }
 
-.container img { 
-  padding: 5px;
+.container img {
   border: 1px solid var(--paradise-pink);
   border-radius: 30px;
   box-shadow: 2px 2px 3px var(--paradise-pink);
+  margin: 20px 0 1%;
+  padding: 5px;
+  width: 150px; 
+}
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+button {
+  background-color: var(--caribbean-green1);
+  border-color: var(--orange-yellow-crayola);
+  border-radius: 15px;
+  font-weight: 700;
+  margin: 5px;
+  padding: 5px 10px;
+  width: 90px;
 }

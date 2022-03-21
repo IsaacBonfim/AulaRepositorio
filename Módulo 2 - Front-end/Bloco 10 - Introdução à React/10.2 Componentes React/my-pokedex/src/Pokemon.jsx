@@ -3,16 +3,18 @@ import PropTypes from 'prop-types';
 
 class Pokemon extends React.Component {
   render () {
+    const { pokemon } = this.props;
+
     return (
-      <div key={this.props.pokemon.id} className="container">
+      <div key={ pokemon.id } className="container">
         <div>
-          <p>{ this.props.pokemon.name }</p>
-          <p>{ this.props.pokemon.type }</p>
-          <p>Average weight: { this.props.pokemon.averageWeight.value }
+          <p>{ pokemon.name }</p>
+          <p>{ pokemon.type.split(' ').join(' / ') }</p>
+          <p>Average weight: { pokemon.averageWeight.value }
           {' '}
-          { this.props.pokemon.averageWeight.measurementUnit }</p>
+          { pokemon.averageWeight.measurementUnit }</p>
         </div>
-        <img src={this.props.pokemon.image} alt=''/>
+        <img src={ pokemon.image } alt=''/>
       </div>
     )
   }
