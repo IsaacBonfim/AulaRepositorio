@@ -138,4 +138,4 @@ class Pokedex extends React.Component {
   }
 }
 
-export default Pokedex
+export default Pokedex;
